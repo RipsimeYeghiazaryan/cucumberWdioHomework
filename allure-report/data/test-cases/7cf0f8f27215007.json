@@ -1,0 +1,113 @@
+{
+  "uid" : "7cf0f8f27215007",
+  "name" : "Check header women page",
+  "fullName" : "Cucumber page WebDriver/IO.Check header women page",
+  "historyId" : "5bf5d10f342ea9f130e3fa98c9af69c",
+  "time" : {
+    "start" : 1637483084539,
+    "stop" : 1637483095565,
+    "duration" : 11026
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I am on the home page",
+      "time" : {
+        "start" : 1637483084541,
+        "stop" : 1637483092248,
+        "duration" : 7707
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When I navigate to the women page",
+      "time" : {
+        "start" : 1637483092248,
+        "stop" : 1637483095526,
+        "duration" : 3278
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then I check header of women, it should be equal Women",
+      "time" : {
+        "start" : 1637483095526,
+        "stop" : 1637483095564,
+        "duration" : 38
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Cucumber page WebDriver/IO"
+  }, {
+    "name" : "testClass",
+    "value" : "Cucumber page WebDriver/IO"
+  }, {
+    "name" : "testMethod",
+    "value" : "Check header women page"
+  }, {
+    "name" : "package",
+    "value" : "Cucumber page WebDriver/IO"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-95.0.4638.69"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7cf0f8f27215007.json",
+  "parameterValues" : [ "chrome-95.0.4638.69" ]
+}

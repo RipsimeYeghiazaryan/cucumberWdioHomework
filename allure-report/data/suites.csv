@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Nov 21 12:25:01 AMT 2021","Sun Nov 21 12:25:07 AMT 2021","5722","","Cucumber page WebDriver/IO","","Cucumber page WebDriver/IO","Check header tShirt page","Check header tShirt page",""
+"passed","Sun Nov 21 12:24:44 AMT 2021","Sun Nov 21 12:24:55 AMT 2021","11026","","Cucumber page WebDriver/IO","","Cucumber page WebDriver/IO","Check header women page","Check header women page",""
+"passed","Sun Nov 21 12:25:12 AMT 2021","Sun Nov 21 12:25:18 AMT 2021","5997","","Cucumber page WebDriver/IO","","Cucumber page WebDriver/IO","Check invalid emails","Check invalid emails",""
+"passed","Sun Nov 21 12:25:18 AMT 2021","Sun Nov 21 12:25:33 AMT 2021","15047","","Cucumber page WebDriver/IO","","Cucumber page WebDriver/IO","Choose a product, add to cart and check","Choose a product, add to cart and check",""
+"passed","Sun Nov 21 12:24:55 AMT 2021","Sun Nov 21 12:25:01 AMT 2021","6012","","Cucumber page WebDriver/IO","","Cucumber page WebDriver/IO","Check header dresses page","Check header dresses page",""

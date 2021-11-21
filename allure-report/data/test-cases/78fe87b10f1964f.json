@@ -1,0 +1,113 @@
+{
+  "uid" : "78fe87b10f1964f",
+  "name" : "Check header dresses page",
+  "fullName" : "Cucumber page WebDriver/IO.Check header dresses page",
+  "historyId" : "bef21e049deb8c3e73a18df0505c9399",
+  "time" : {
+    "start" : 1637483095565,
+    "stop" : 1637483101577,
+    "duration" : 6012
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I am on the home page",
+      "time" : {
+        "start" : 1637483095566,
+        "stop" : 1637483099231,
+        "duration" : 3665
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When I navigate to the dresses page",
+      "time" : {
+        "start" : 1637483099231,
+        "stop" : 1637483101534,
+        "duration" : 2303
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then I check header of dresses, it should be equal Dresses",
+      "time" : {
+        "start" : 1637483101534,
+        "stop" : 1637483101576,
+        "duration" : 42
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Cucumber page WebDriver/IO"
+  }, {
+    "name" : "testClass",
+    "value" : "Cucumber page WebDriver/IO"
+  }, {
+    "name" : "testMethod",
+    "value" : "Check header dresses page"
+  }, {
+    "name" : "package",
+    "value" : "Cucumber page WebDriver/IO"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-95.0.4638.69"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "78fe87b10f1964f.json",
+  "parameterValues" : [ "chrome-95.0.4638.69" ]
+}

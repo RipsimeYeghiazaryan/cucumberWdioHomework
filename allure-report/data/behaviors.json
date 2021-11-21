@@ -1,0 +1,70 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Check header women page",
+    "uid" : "7cf0f8f27215007",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1637483084539,
+      "stop" : 1637483095565,
+      "duration" : 11026
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-95.0.4638.69" ]
+  }, {
+    "name" : "Check header dresses page",
+    "uid" : "78fe87b10f1964f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1637483095565,
+      "stop" : 1637483101577,
+      "duration" : 6012
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-95.0.4638.69" ]
+  }, {
+    "name" : "Check header tShirt page",
+    "uid" : "64ba6c73c3a3b71a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1637483101577,
+      "stop" : 1637483107299,
+      "duration" : 5722
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-95.0.4638.69" ]
+  }, {
+    "name" : "Check invalid emails",
+    "uid" : "6aec0136b1968e74",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1637483112779,
+      "stop" : 1637483118776,
+      "duration" : 5997
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-95.0.4638.69" ]
+  }, {
+    "name" : "Choose a product, add to cart and check",
+    "uid" : "c8d1d7680ccd82d2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1637483118776,
+      "stop" : 1637483133823,
+      "duration" : 15047
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-95.0.4638.69" ]
+  } ]
+}

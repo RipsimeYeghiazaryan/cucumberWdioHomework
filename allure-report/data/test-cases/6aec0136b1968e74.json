@@ -1,0 +1,121 @@
+{
+  "uid" : "6aec0136b1968e74",
+  "name" : "Check invalid emails",
+  "fullName" : "Cucumber page WebDriver/IO.Check invalid emails",
+  "historyId" : "f0c054d82fafc87c91ca0a325dfe749c",
+  "time" : {
+    "start" : 1637483112779,
+    "stop" : 1637483118776,
+    "duration" : 5997
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I am on the home page",
+      "time" : {
+        "start" : 1637483112780,
+        "stop" : 1637483116370,
+        "duration" : 3590
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When I navigate to the signIn page",
+      "time" : {
+        "start" : 1637483116370,
+        "stop" : 1637483117535,
+        "duration" : 1165
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then I should input invalid 'abc111asad@mail' and chek the Invalid email address.",
+      "time" : {
+        "start" : 1637483117535,
+        "stop" : 1637483118775,
+        "duration" : 1240
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Cucumber page WebDriver/IO"
+  }, {
+    "name" : "testClass",
+    "value" : "Cucumber page WebDriver/IO"
+  }, {
+    "name" : "testMethod",
+    "value" : "Check invalid emails"
+  }, {
+    "name" : "package",
+    "value" : "Cucumber page WebDriver/IO"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-95.0.4638.69"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1290ac8b5bfd17a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1637483107299,
+        "stop" : 1637483112779,
+        "duration" : 5480
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6aec0136b1968e74.json",
+  "parameterValues" : [ "chrome-95.0.4638.69" ]
+}

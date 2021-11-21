@@ -1,0 +1,143 @@
+{
+  "uid" : "c8d1d7680ccd82d2",
+  "name" : "Choose a product, add to cart and check",
+  "fullName" : "Cucumber page WebDriver/IO.Choose a product, add to cart and check",
+  "historyId" : "c3bfaaeb947c962848c1ea37a5386c75",
+  "time" : {
+    "start" : 1637483118776,
+    "stop" : 1637483133823,
+    "duration" : 15047
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I am on the home page",
+      "time" : {
+        "start" : 1637483118776,
+        "stop" : 1637483121258,
+        "duration" : 2482
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When I navigate to the product",
+      "time" : {
+        "start" : 1637483121258,
+        "stop" : 1637483121391,
+        "duration" : 133
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then I click on the quick view and choose parameters",
+      "time" : {
+        "start" : 1637483121391,
+        "stop" : 1637483128153,
+        "duration" : 6762
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When I add it to my cart",
+      "time" : {
+        "start" : 1637483128153,
+        "stop" : 1637483130783,
+        "duration" : 2630
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then I shall validate that the product is in the shopping cart",
+      "time" : {
+        "start" : 1637483130783,
+        "stop" : 1637483133823,
+        "duration" : 3040
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Cucumber page WebDriver/IO"
+  }, {
+    "name" : "testClass",
+    "value" : "Cucumber page WebDriver/IO"
+  }, {
+    "name" : "testMethod",
+    "value" : "Choose a product, add to cart and check"
+  }, {
+    "name" : "package",
+    "value" : "Cucumber page WebDriver/IO"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-95.0.4638.69"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c8d1d7680ccd82d2.json",
+  "parameterValues" : [ "chrome-95.0.4638.69" ]
+}

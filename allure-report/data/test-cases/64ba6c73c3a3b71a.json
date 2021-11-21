@@ -1,0 +1,113 @@
+{
+  "uid" : "64ba6c73c3a3b71a",
+  "name" : "Check header tShirt page",
+  "fullName" : "Cucumber page WebDriver/IO.Check header tShirt page",
+  "historyId" : "919b3d1da112809c7db9b76532dcfd35",
+  "time" : {
+    "start" : 1637483101577,
+    "stop" : 1637483107299,
+    "duration" : 5722
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I am on the home page",
+      "time" : {
+        "start" : 1637483101578,
+        "stop" : 1637483105279,
+        "duration" : 3701
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When I navigate to the tShirt page",
+      "time" : {
+        "start" : 1637483105279,
+        "stop" : 1637483107264,
+        "duration" : 1985
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then I check header of tShirt, it should be equal T-shirts",
+      "time" : {
+        "start" : 1637483107265,
+        "stop" : 1637483107298,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Cucumber page WebDriver/IO"
+  }, {
+    "name" : "testClass",
+    "value" : "Cucumber page WebDriver/IO"
+  }, {
+    "name" : "testMethod",
+    "value" : "Check header tShirt page"
+  }, {
+    "name" : "package",
+    "value" : "Cucumber page WebDriver/IO"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-95.0.4638.69"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "64ba6c73c3a3b71a.json",
+  "parameterValues" : [ "chrome-95.0.4638.69" ]
+}

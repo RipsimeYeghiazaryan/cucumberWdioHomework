@@ -112,6 +112,7 @@ exports.config = {
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
     services: ['chromedriver'],
+    // services: ['selenium-standalone'],
 
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
@@ -139,6 +140,8 @@ exports.config = {
         disableWebdriverScreenshotsReporting: false,
         useCucumberStepReporter: true,
         addConsoleLogs: true,
+    }], ['junit', {
+        outputDir: './report'
     }]],
 
 

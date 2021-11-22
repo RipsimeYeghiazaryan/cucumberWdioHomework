@@ -1,0 +1,217 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1637559925814' stop='1637559974999'>
+    <name>Cucumber page WebDriver/IO</name>
+    <title>Cucumber page WebDriver/IO</title>
+    <test-cases>
+        <test-case start='1637559925843' status='passed' stop='1637559935709'>
+            <name>Check header women page</name>
+            <title>Check header women page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps>
+                <step start='1637559925847' status='passed' stop='1637559933096'>
+                    <name>Given I am on the home page</name>
+                    <title>Given I am on the home page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637559933096' status='passed' stop='1637559935649'>
+                    <name>When I navigate to the women page</name>
+                    <title>When I navigate to the women page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637559935649' status='passed' stop='1637559935707'>
+                    <name>Then I check header of women, it should be equal Women</name>
+                    <title>Then I check header of women, it should be equal Women</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1637559935709' status='passed' stop='1637559941417'>
+            <name>Check header dresses page</name>
+            <title>Check header dresses page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps>
+                <step start='1637559935710' status='passed' stop='1637559938871'>
+                    <name>Given I am on the home page</name>
+                    <title>Given I am on the home page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637559938871' status='passed' stop='1637559941371'>
+                    <name>When I navigate to the dresses page</name>
+                    <title>When I navigate to the dresses page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637559941371' status='passed' stop='1637559941416'>
+                    <name>Then I check header of dresses, it should be equal Dresses</name>
+                    <title>Then I check header of dresses, it should be equal Dresses</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1637559941418' status='passed' stop='1637559946530'>
+            <name>Check header tShirt page</name>
+            <title>Check header tShirt page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps>
+                <step start='1637559941419' status='passed' stop='1637559944015'>
+                    <name>Given I am on the home page</name>
+                    <title>Given I am on the home page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637559944015' status='passed' stop='1637559946491'>
+                    <name>When I navigate to the tShirt page</name>
+                    <title>When I navigate to the tShirt page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637559946492' status='passed' stop='1637559946530'>
+                    <name>Then I check header of tShirt, it should be equal T-shirts</name>
+                    <title>Then I check header of tShirt, it should be equal T-shirts</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1637559946530' status='passed' stop='1637559953447'>
+            <name>Check invalid emails</name>
+            <title>Check invalid emails</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps>
+                <step start='1637559946531' status='passed' stop='1637559949212'>
+                    <name>Given I am on the home page</name>
+                    <title>Given I am on the home page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637559949212' status='passed' stop='1637559951641'>
+                    <name>When I navigate to the signIn page</name>
+                    <title>When I navigate to the signIn page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637559951641' status='passed' stop='1637559953447'>
+                    <name>Then I should input invalid 'abc47mail.ru' and chek the Invalid email address</name>
+                    <title>Then I should input invalid 'abc47mail.ru' and chek the Invalid email address</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1637559953447' status='passed' stop='1637559960575'>
+            <name>Check invalid emails</name>
+            <title>Check invalid emails</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps>
+                <step start='1637559953448' status='passed' stop='1637559957705'>
+                    <name>Given I am on the home page</name>
+                    <title>Given I am on the home page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637559957705' status='passed' stop='1637559958809'>
+                    <name>When I navigate to the signIn page</name>
+                    <title>When I navigate to the signIn page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637559958809' status='passed' stop='1637559960574'>
+                    <name>Then I should input invalid 'abc111asad@mail' and chek the Invalid email address.</name>
+                    <title>Then I should input invalid 'abc111asad@mail' and chek the Invalid email address.</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1637559960575' status='passed' stop='1637559974998'>
+            <name>Choose a product, add to cart and check</name>
+            <title>Choose a product, add to cart and check</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps>
+                <step start='1637559960576' status='passed' stop='1637559963853'>
+                    <name>Given I am on the home page</name>
+                    <title>Given I am on the home page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637559963853' status='passed' stop='1637559964037'>
+                    <name>When I navigate to the product</name>
+                    <title>When I navigate to the product</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637559964038' status='passed' stop='1637559970560'>
+                    <name>Then I click on the quick view and choose parameters</name>
+                    <title>Then I click on the quick view and choose parameters</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637559970560' status='passed' stop='1637559972190'>
+                    <name>When I add it to my cart</name>
+                    <title>When I add it to my cart</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637559972190' status='passed' stop='1637559974997'>
+                    <name>Then I shall validate that the product is in the shopping cart</name>
+                    <title>Then I shall validate that the product is in the shopping cart</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

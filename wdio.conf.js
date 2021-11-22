@@ -1,5 +1,6 @@
 const allure = require('allure-commandline');
 exports.config = {
+
     //
     // ====================
     // Runner Configuration
@@ -112,7 +113,7 @@ exports.config = {
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
     services: ['chromedriver'],
-    // services: ['selenium-standalone'],
+    // services: ['browserStack'],
 
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber

@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="Cucumber page WebDriver IO" timestamp="2021-11-22T09:45:25" time="49.205" tests="6" failures="0" errors="0" skipped="0">
+  <testsuite name="Cucumber page WebDriver IO" timestamp="2021-11-22T10:02:37" time="35.541" tests="6" failures="0" errors="0" skipped="0">
     <properties>
       <property name="specId" value="0"/>
       <property name="featureName" value="Cucumber page WebDriver/IO"/>
       <property name="capabilities" value="chrome.95_0_4638_69.windows"/>
       <property name="featureFile" value=".\features\example.feature"/>
     </properties>
-    <testcase classname="CucumberJUnitReport-chrome.95_0_4638_69.windows.Cucumber page WebDriver IO" name="Check header women page" time="9.865">
+    <testcase classname="CucumberJUnitReport-chrome.95_0_4638_69.windows.Cucumber page WebDriver IO" name="Check header women page" time="7.065">
       <system-out><![CDATA[
 ✅ Given I am on the home page✅ When I navigate to the women page✅ Then I check header of women, it should be equal Women
 ]]></system-out>
     </testcase>
-    <testcase classname="CucumberJUnitReport-chrome.95_0_4638_69.windows.Cucumber page WebDriver IO" name="Check header dresses page" time="5.708">
+    <testcase classname="CucumberJUnitReport-chrome.95_0_4638_69.windows.Cucumber page WebDriver IO" name="Check header dresses page" time="3.644">
       <system-out><![CDATA[
 ✅ Given I am on the home page✅ When I navigate to the dresses page✅ Then I check header of dresses, it should be equal Dresses
 ]]></system-out>
     </testcase>
-    <testcase classname="CucumberJUnitReport-chrome.95_0_4638_69.windows.Cucumber page WebDriver IO" name="Check header tShirt page" time="5.112">
+    <testcase classname="CucumberJUnitReport-chrome.95_0_4638_69.windows.Cucumber page WebDriver IO" name="Check header tShirt page" time="4.679">
       <system-out><![CDATA[
 ✅ Given I am on the home page✅ When I navigate to the tShirt page✅ Then I check header of tShirt, it should be equal T-shirts
 ]]></system-out>
     </testcase>
-    <testcase classname="CucumberJUnitReport-chrome.95_0_4638_69.windows.Cucumber page WebDriver IO" name="Check invalid emails" time="6.917">
+    <testcase classname="CucumberJUnitReport-chrome.95_0_4638_69.windows.Cucumber page WebDriver IO" name="Check invalid emails" time="4.237">
       <system-out><![CDATA[
 ✅ Given I am on the home page✅ When I navigate to the signIn page✅ Then I should input invalid 'abc47mail.ru' and chek the Invalid email address
 ]]></system-out>
     </testcase>
-    <testcase classname="CucumberJUnitReport-chrome.95_0_4638_69.windows.Cucumber page WebDriver IO" name="Check invalid emails" time="7.128">
+    <testcase classname="CucumberJUnitReport-chrome.95_0_4638_69.windows.Cucumber page WebDriver IO" name="Check invalid emails" time="4.168">
       <system-out><![CDATA[
 ✅ Given I am on the home page✅ When I navigate to the signIn page✅ Then I should input invalid 'abc111asad@mail' and chek the Invalid email address.
 ]]></system-out>
     </testcase>
-    <testcase classname="CucumberJUnitReport-chrome.95_0_4638_69.windows.Cucumber page WebDriver IO" name="Choose a product add to cart and check" time="14.423">
+    <testcase classname="CucumberJUnitReport-chrome.95_0_4638_69.windows.Cucumber page WebDriver IO" name="Choose a product add to cart and check" time="11.691">
       <system-out><![CDATA[
 ✅ Given I am on the home page✅ When I navigate to the product✅ Then I click on the quick view and choose parameters✅ When I add it to my cart✅ Then I shall validate that the product is in the shopping cart
 ]]></system-out>

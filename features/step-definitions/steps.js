@@ -47,7 +47,7 @@ When(/^I navigate to the product$/, async () => {
     await pages["shopping"].product.moveTo();
     console.log('after moveTo');
     await browser.pause(2000)
-    await expect(pages["shopping"].quickView).toBeDisplayed();
+    expect(pages["shopping"].quickView).toBeDisplayed();
 });
 
 Then(/^I click on the quick view and choose parameters$/, async () => {

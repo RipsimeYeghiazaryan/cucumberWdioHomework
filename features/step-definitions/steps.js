@@ -46,6 +46,7 @@ When(/^I navigate to the product$/, async () => {
 });
 
 Then(/^I click on the quick view and choose parameters$/, async () => {
+    console.log(0);
     await pages["shopping"].quickView.click();
     console.log(1);
     const frame = await pages["shopping"].frameOfTable;

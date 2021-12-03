@@ -6,6 +6,7 @@ const DressesPage = require('../pageobjects/dresses.page');
 const TShirtPage = require('../pageobjects/tShirt.page');
 const SignInPage = require('../pageobjects/signIn.page');
 const ShoppingPage = require('../pageobjects/shopping');
+const IFrame = require('../pageobjects/iFrame')
 
 const pages = {
     home: new Page(),
@@ -14,6 +15,7 @@ const pages = {
     tShirt: new TShirtPage(),
     signIn: new SignInPage(),
     shopping: new ShoppingPage(),
+    iFrame: new IFrame(),
 };
 
 Given(/^I am on the home page$/, async () => {
@@ -46,17 +48,17 @@ When(/^I navigate to the product$/, async () => {
 Then(/^I click on the quick view and choose parameters$/, async () => {
     await pages["shopping"].quickView.click();
     const frame = await pages["shopping"].frameOfTable;
-    await  browser.switchToFrame(frame);
-    await browser.pause(3000);
-    await pages["shopping"].plusIcon.click();
-    await pages["shopping"].sizeInp.click();
-    await pages["shopping"].sizeM.click();
-    await pages["shopping"].color.click();
-    await expect(pages["shopping"].imgSrc).toBeDisplayed();
+    await pages["shopping"].frameOfTable.waitForDisplayed();
+    await browser.switchToFrame(frame);
+    await pages["iFrame"].plusIcon.click();
+    await pages["iFrame"].sizeInp.click();
+    await pages["iFrame"].sizeM.click();
+    await pages["iFrame"].color.click();
+    await expect(pages["iFrame"].imgSrc).toBeDisplayed();
 });
 
 When(/^I add it to my cart$/, async () => {
-    await pages["shopping"].addCartBtn.click();
+    await pages["iFrame"].addCartBtn.click();
     await  browser.switchToParentFrame();
     await expect(pages["shopping"].qty).toHaveText('2');
 });

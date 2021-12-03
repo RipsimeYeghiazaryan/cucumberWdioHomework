@@ -40,7 +40,8 @@ Then(/^I should input invalid '(.*)' and chek the (.*)$/, async (email, error) =
 });
 
 When(/^I navigate to the product$/, async () => {
-    await pages["shopping"].scroll;
+    // await pages["shopping"].scroll;
+    await pages["shopping"].product.scrollIntoView({block: "center"});
     await pages["shopping"].product.moveTo();
     await expect(pages["shopping"].product).toBeDisplayed();
 });

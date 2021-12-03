@@ -47,14 +47,23 @@ When(/^I navigate to the product$/, async () => {
 
 Then(/^I click on the quick view and choose parameters$/, async () => {
     await pages["shopping"].quickView.click();
+    console.log(1);
     const frame = await pages["shopping"].frameOfTable;
+    console.log(2);
     await pages["shopping"].frameOfTable.waitForDisplayed();
+    console.log(3);
     await browser.switchToFrame(frame);
+    console.log(4);
     await pages["iFrame"].plusIcon.click();
+    console.log(5);
     await pages["iFrame"].sizeInp.click();
+    console.log(6);
     await pages["iFrame"].sizeM.click();
+    console.log(7);
     await pages["iFrame"].color.click();
+    console.log(8);
     await expect(pages["iFrame"].imgSrc).toBeDisplayed();
+    console.log(9);
 });
 
 When(/^I add it to my cart$/, async () => {

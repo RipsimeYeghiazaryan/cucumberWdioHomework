@@ -42,12 +42,17 @@ Then(/^I should input invalid '(.*)' and chek the (.*)$/, async (email, error) =
 When(/^I navigate to the product$/, async () => {
     // await pages["shopping"].scroll;
     await pages["shopping"].product.scrollIntoView({block: "center"});
+    console.log('after scroll');
+    await browser.pause(2000)
     await pages["shopping"].product.moveTo();
+    console.log('after moveTo');
+    await browser.pause(2000)
     await expect(pages["shopping"].product).toBeDisplayed();
 });
 
 Then(/^I click on the quick view and choose parameters$/, async () => {
     console.log(0);
+    await browser.pause(2000)
     await pages["shopping"].quickView.click();
     console.log(1);
     const frame = await pages["shopping"].frameOfTable;

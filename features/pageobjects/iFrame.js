@@ -10,7 +10,7 @@ module.exports = class IFramePage extends Page {
     get closeBtn() {return $('[class="fancybox-item fancybox-close"]')};
     get imgSrc() { return $('(.//img [@src="http://automationpractice.com/img/p/3/3-large_default.jpg"])')};
 
-}
+};
 
 
 

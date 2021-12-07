@@ -6,18 +6,18 @@ Feature: Cucumber page WebDriver/IO
 
   @smoke
   Scenario Outline: Check header <page> page
-    When I navigate to the <page> page
+    When I navigate to the <page> page, it should have <title> title
     Then I check header of <page>, it should be equal <header>
 
   Examples:
-    | page      | header          |
-    | women     | Women           |
-    | dresses   | Dresses         |
-    | tShirt    | T-shirts        |
+    | page      | header          | title               |
+    | women     | Women           | Women - My Store    |
+    | dresses   | Dresses         | Dresses - My Store  |
+    | tShirt    | T-shirts        | T-shirts - My Store |
 
 
   Scenario Outline: Check invalid emails
-    When I navigate to the signIn page
+    When I navigate to the SignInPage page, it should have Login - My Store title
     Then I should input invalid '<email>' and chek the <error>
 
 

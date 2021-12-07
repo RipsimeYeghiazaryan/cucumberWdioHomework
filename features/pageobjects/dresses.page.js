@@ -7,7 +7,7 @@ module.exports = class DressesPage extends Page {
 
     get header() {return $('[class="category-name"]')};
 
-}
+};
 
 
 

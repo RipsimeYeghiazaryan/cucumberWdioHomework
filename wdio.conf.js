@@ -221,8 +221,7 @@ exports.config = {
      * @param {Object}         browser      instance of created browser/device session
      */
     before: function (capabilities, specs) {
-        // browser.maximizeWindow();
-        return browser.setWindowSize(1920, 1080);
+        browser.maximizeWindow();
     },
     /**
      * Runs before a WebdriverIO command gets executed.

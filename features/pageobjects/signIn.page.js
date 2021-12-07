@@ -10,7 +10,7 @@ module.exports = class SignInPage extends Page {
         return el.scrollIntoView({block: "center"});
     };
 
-    get theError() {
+    get errorMessage() {
         return $('#create_account_error > ol > li');
     };
 
@@ -22,4 +22,4 @@ module.exports = class SignInPage extends Page {
         return $('#SubmitCreate');
     };
 
-}
+};
